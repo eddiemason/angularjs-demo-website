@@ -19,8 +19,19 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
+  <!-- Custom Components -->
+  <link rel="stylesheet" href="components_custom/slider/slider.css">
+  <script src="components_custom/slider/angular-animate/angular-animate.js"></script>
+  <script src="components_custom/slider/slider.component.js"></script>
+  <!--***********************-->
+
 </head>
 <body>
   <primary-header></primary-header>
+  <div class="pageContent">
+    <div class="pageTitle"><span class="title">What We Do</span></div>
+    <slider images="images"></slider>
+  </div>
 </body>
 </html>

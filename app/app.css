@@ -13,18 +13,40 @@ body {
 }
 
 .site-title {
-  padding: 7px 0 0 15px;
+  padding: 7px 0 0 100px;
   float: left;
   font-size: 25px;
 }
 
 .menu {
   list-style: none;
-  padding: 0 20px 0 0;
   float: right;
+  padding: 0 75px 0 0;
 }
 
 .menu > li {
   display: inline;
+  padding: 0 15px 0 0;
+}
+
+.menu > li a { text-decoration: none; color: #ffffff;}
+.menu > li a:hover { color: #666666;}
+
+.pageTitle { 
+  color: #ffffff; 
+  margin: 0 auto 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  padding-top:20px;
+  }
+.title {
+    font-size: 40px;
+    color: #000000;
+}
+.pageContent {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  background-color: rgba(255,255,255,0.7);
 }
 

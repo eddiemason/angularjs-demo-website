@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('formycityApp.view_about', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view2', {
-    templateUrl: 'view2/view2.html',
-    controller: 'View2Ctrl'
+  $routeProvider.when('/view_about', {
+    templateUrl: 'view_about/about.html',
+    controller: 'AboutController'
   });
 }])
 
-.controller('View2Ctrl', [function() {
+.controller('AboutController', [function() {
 
 }]);
